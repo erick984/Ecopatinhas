@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EcoPatinhas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="./img/LOGO.svg">
+</head>
+
+<body>
+    <header>
+        <div class="logo" aria-label="Logo Eco Pets" tabindex="0">
+            <span class="material-icons" aria-hidden="true">pets</span> EcoPatinhas
+        </div>
+        <nav aria-label="Primary navigation">
+            <a href="#sobre" tabindex="0">Sobre</a>
+            <a href="#servicos" tabindex="0">Serviços</a>
+
+        </nav>
+        <button class="hamburger" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu">
+            <span class="material-icons">menu</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" aria-label="Seção destaque">
+            <div class="hero-text" tabindex="0">
+                <b>Melhor tratamento</b><b>para seu pet</b>
+            </div>
+            <div class="hero-image">
+                <img src="./img/Dog 29.jpg" alt="Cachorro sorridente olhando para cima" />
+            </div>
+        </section>
+
+        <section class="what-we-do" id="sobre" aria-labelledby="title-about">
+            <h2 id="title-about">O que Fazemos</h2>
+            <p tabindex="0">
+                A Eco Patinhas é uma pet shop ecológica que une amor pelos animais e respeito ao meio ambiente.
+                Utilizamos produtos naturais e biodegradáveis, respeitando a fauna e a flora local, para fazermos
+                o cliente correto com resultados. Também oferecemos assessoria sustentável e regras naturais. Aqui,
+                seu pet é cuidado com carinho e com consciência ecológica. Contate a Eco Patinhas e contribua para um
+                mundo mais verde!
+            </p>
+        </section>
+
+        <section class="animals" aria-label="Animais cuidados">
+            <h3>Adocão</h3>
+            <div class="animals-grid" role="list">
+                <div class="animal-card" role="listitem" aria-label="Imagem de cobra">
+                    <img src="./img/Albino Black Rat Snake.jpg" alt="Foto de uma cobra dormindo enrolada" />
+                    <span class="highlighted" tabindex="0">cobras</span>
+                </div>
+                <div class="animal-card" role="listitem" aria-label="Imagem de lagarto">
+                    <img src="./img/snagtiles on Instagram_ “🍊 Iguana fact_ Did you know that male iguanas develop an orange to orange-red coloring as breeding season approaches_ Dominant males and…” (1).jpg"
+                        alt="Foto de lagarto vermelho sobre uma pedra" />
+                    <span tabindex="0">lagartos</span>
+                </div>
+                <div class="animal-card" role="listitem" aria-label="Imagem de pássaro">
+                    <img src="./img/transferir (15).jpg" alt="Pássaro colorido em um galho de árvore" />
+                    <span tabindex="0">pássaros</span>
+                </div>
+                <div class="animal-card" role="listitem" aria-label="Imagem de aranha">
+                    <img src="./img/transferir (16).jpg" alt="Aranha grande sobre teia preta" />
+                    <span tabindex="0">aranhas</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="offer-section" id="servicos" aria-labelledby="title-offer">
+            <h2 id="title-offer">O que Oferecemos para seu pet</h2>
+            <div class="offer-cards" role="list">
+                <article class="offer-card" role="listitem" tabindex="0" aria-label="Serviço Consultas veterinárias">
+                    <span class="material-icons" aria-hidden="true">local_hospital</span>
+                    <h3>Consultas veterinárias</h3>
+                    <p>Exames de rotina e acompanhamento completo para a saúde do seu pet.</p>
+                </article>
+                <article class="offer-card" role="listitem" tabindex="0" aria-label="Serviço Banho e Tosa">
+                    <span class="material-icons" aria-hidden="true">content_cut</span>
+                    <h3>Banho e Tosa</h3>
+                    <p>Produtos naturais para cuidado e estética do seu animal de estimação.</p>
+                </article>
+                <article class="offer-card" role="listitem" tabindex="0" aria-label="Serviço Consulta e Petiscos">
+                    <span class="material-icons" aria-hidden="true">eco</span>
+                    <h3>Consulta e Petiscos</h3>
+                    <p>Petiscos saudáveis e naturais para o bem-estar do seu pet.</p>
+                </article>
+            </div>
+
+            <form class="contact-form" aria-label="Formulário de contato para serviços">
+                <h2>Contato</h2>
+                <label for="name">Seu Nome</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required autocomplete="name" />
+
+                <label for="email">Gmail</label>
+                <input type="email" id="email" name="email" placeholder="@gmail.com" required
+                    autocomplete="email"/>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="4" placeholder="Sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo" tabindex="0" aria-label="Logo Eco Petatinhas">
+            <span class="material-icons" aria-hidden="true">pets</span> EcoPatinhas
+        </div>
+        <div class="contact-info" tabindex="0">EcoPatinhasgrupo4@gmail.com</div>
+        <nav class="social-links" aria-label="Redes sociais Eco Pets">
+            <a href="https://instagram.com/ecopatinhas_petshop" target="_blank" rel="noopener"
+                aria-label="Instagram Eco Patinhas">
+                <span class="material-icons" aria-hidden="true">instagram</span>
+            </a>
+            <a href="https://facebook.com/ecopatinhas_petshop" target="_blank" rel="noopener"
+                aria-label="Facebook Eco Patinhas">
+                <span class="material-icons" aria-hidden="true">facebook</span>
+            </a>
+          
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
