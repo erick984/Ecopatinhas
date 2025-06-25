@@ -1,9 +1,12 @@
+
 @import url('./font/BerkshireSwash-Regular.ttf');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-/* Reset and base */
+
 * {
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
